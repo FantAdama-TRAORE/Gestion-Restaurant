@@ -1,0 +1,106 @@
+
+body{
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-color: rgb(199, 199, 249);
+}
+
+header{
+    background:rgb(172, 191, 248);
+    width: 250px;
+    margin: 15px;
+    
+   
+  }
+  header img{
+    width: 100px;
+    margin: 15px;
+    margin-left: 50px;
+    border-radius: 50%;
+    border: 3PX solid gray;
+    
+  }
+  header h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 13px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+  
+  }
+.Barre{
+    background: white;
+    width: 270px;
+    height: 100vh;
+    position: fixed;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    /*couleur ecriture*/
+    color: rgb(10, 2, 2);
+}
+
+.menu{
+    width: 100%;
+    margin-top: 30px;
+  }
+
+.sous-1{
+    display: none;
+}
+.menu ul li:hover .sous-1 {
+    display: block;
+    position: absolute;
+    background:rgb(172, 191, 248);
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu ul li:hover .sous-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .sous-1 ul li{
+    width: 150px;
+    padding: 10px;
+    background: transparent;
+    text-align: left;
+}
+
+
+.sous-2{
+    display: none;
+}
+.menu ul li:hover .sous-2{
+    display: block;
+    position: absolute;
+    background: rgb(172, 191, 248);
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu ul li:hover .sous-2 ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .sous-2 ul li{
+    width: 150px;
+    padding: 10px;
+    background: transparent;
+    text-align: left;
+}
+
+
+
+  
+ 

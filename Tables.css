@@ -1,0 +1,14 @@
+Tables{
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x:auto;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 20px;
+    
+  }
+
+  tr:nth-child(even){background-color: rgb(184, 199, 241);
+}
